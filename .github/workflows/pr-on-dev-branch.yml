@@ -1,8 +1,6 @@
 name: validate to prod
 on:
   push:
-    paths:
-      - force-app/**
     branches:
       - dev
 jobs:
