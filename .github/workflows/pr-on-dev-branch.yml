@@ -33,4 +33,4 @@ jobs:
         run: sf org login sfdx-url --sfdx-url-file ./PROD_URL.txt --set-default --alias myOrg
       - name: Deployment - run all tests
         run: >
-          sf project deploy start --source-dir force-app --target-org myOrg --concise --purge-on-delete
+          sf project deploy start --source-dir force-app --target-org myOrg --concise
